@@ -11,7 +11,7 @@ export default function Register(){
     const [email, setEmail] = useState('')
    const [RegisterAs, setRegisterAs]=useState('')
     
-   const backendUrl='http://localhost:3002/user/register'
+   const backendUrl=`${process.env.REACT_APP_BASE_URL}/user/register`
    const navi = useNavigate()
     const handleSubmit= async(e) =>{
         e.preventDefault()

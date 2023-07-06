@@ -17,7 +17,7 @@ export default function SecuredPage (){
         const fetchData =()=>{
             try{
                 const token = sessionStorage.getItem('token')
-                const response = axios.get("http://localhost:3002/user/login",{
+                const response = axios.get(`${process.env.REACT_APP_BASE_URL}/user/login`,{
                     headers:{
                         Authorization: `Bearer ${token}`
                     }

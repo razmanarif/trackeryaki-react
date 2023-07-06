@@ -11,7 +11,7 @@ export function DeliveryGuyPage() {
   const [availableParcels, setAvailableParcels] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const backEndUrl = "http://localhost:3002";
+  const backEndUrl = process.env.REACT_APP_BASE_URL;
 
   const navi = useNavigate()
 
