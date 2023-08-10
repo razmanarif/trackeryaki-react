@@ -8,18 +8,27 @@ Trackeryaki is a parcel tracking app made using React.js. Users can register as 
 
 Ensure you have Node.js and a package manager such as npm or yarn installed on your machine. You will also need a mongoDB account and cluster. You can create a mongoDB account here if you don't already have one.
 
+
+### Clone the repository
 ```
-# Clone the repository
 $ git clone https://github.com/razmanarif/trackeryaki-react.git
 $ cd trackeryaki-react
-
-# Installing dependencies
-$ npm install   # or yarn install
-
-# Create a .env file
-$ touch .env
-
 ```
+
+### Installing dependencies
+```
+$ npm install
+```
+or
+```
+$ yarn install
+```
+
+### Create a .env file
+```
+$ touch .env
+```
+
 
 ### Input the following in your .env
 ```
